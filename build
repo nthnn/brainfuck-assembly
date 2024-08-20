@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir -p dist
+g++ -Wall --verbose -static -Ofast -o dist/bfasm -Iinclude src/bfasm/*.cpp src/bfasm.cpp
+cp dist/bfasm /usr/local/bin
