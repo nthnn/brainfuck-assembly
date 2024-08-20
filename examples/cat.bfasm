@@ -1,0 +1,11 @@
+; This example implements a simple echo program
+; that reads input from the user and outputs it,
+; effectively functioning as a basic "cat" command
+; in Unix, which outputs its input to the standard
+; output.
+
+in          ; Get an initial input
+jmp begin   ; Begin the loop
+    out     ; Output the previous value
+    in      ; Get another input
+jmp end     ; End of loop
