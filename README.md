@@ -1,5 +1,8 @@
 # Brainfuck Assembly Language
 
+![Build CI](https://github.com/nthnn/brainfuck-assembly/actions/workflows/build_ci.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/nthnn/brainfuck-assembly/blob/main/LICENSE)
+
 Brainfuck Assembly (BFASM) is a human-readable assembly language designed to simplify the process of writing Brainfuck programs. Brainfuck, a minimalist esoteric language, uses only eight commands and is notoriously difficult to write and maintain due to its cryptic syntax. Brainfuck Assembly serves as an intermediate language, allowing developers to write more understandable code, which can then be translated into Brainfuck.
 
 ## Example
